@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div id="header">
+        <h1>The Dude Does Dos</h1>
+            <ul id="navigation">
+                <li class="selected">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About Us</a>
+                </li>
+                <li>
+                    <a href="./gallery.html">Style Gallery</a>
+                </li>
+                <li>
+                    <a href="./blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+    </div>
+
+    <div id="body">
+        <h2>Contact Us</h2>
+        <p style="font-size: medium;">Questions? Concerns? Complete the form below to reach out directly to The Dude.</p>
+        <form class="form" style="font-size: medium; border: solid#002d72; padding: 2%; margin:2%;"> 
+            <label for="name" style="font-style: italic; border-bottom: solid #002d72;">Name (Required):</label>
+            <br><br>
+            <input type="name" id="name" name="name" required>
+            <br><br>
+            <label for="email" style="font-style: italic; border-bottom: solid #002d72;">Email (Required):</label>
+            <br><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="phone" style="font-style: italic; border-bottom: solid #002d72;">Phone Number:</label>
+            <br><br>
+            <input type="phone" id="phone" name="phone">
+            <br><br>
+            <label for="message" style="font-style: italic; border-bottom: solid #002d72;">Message:</label>
+            <br><br>
+            <textarea name="contactMeMessage" rows="10" cols="30" maxlength="500" minlength="15">How can we help you? Enter your message here... </textarea>
+            <br><br>
+            <label for="how" style="font-style: italic; border-bottom: solid #002d72;">How did you hear about us? (Select all that apply.)</label>
+            <br><br>
+            <input type="checkbox" id="customer" name="howCheck" value="customer">
+            <label for="customer"> Customer Referral</label><br>
+            <input type="checkbox" id="socialMedia" name="howCheck" value="socialMedia">
+            <label for="socialMedia">Social Media</label><br>
+            <input type="checkbox" id="printAd" name="howCheck" value="printAd">
+            <label for="printAd">Print Ad</label><br>
+            <input type="checkbox" id="radioAd" name="howCheck" value="radioAd">
+            <label for="radioAd"> Radio Ad</label><br>
+            <input type="checkbox" id="other" name="howCheck" value="other">
+            <label for="other"> Other</label><br>
+            <br>
+            <div class="buttonHolder">
+            <input type="button" id="submit" name="submit" value="Submit">
+            </div>
+        </form> 
+    </div>
+
+    <div id="footer">
+        <div>
+            <p>&copy; 2020 by The Dude Does Dos. All rights reserved.</p>
+                <ul>
+                    <li>
+                        <a href="http://twitter.com" id="twitter">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="http://facebook.com" id="facebook">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Google%2B" id="googleplus">Google+</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/" id="pinterest">Pinterest</a>
+                    </li>
+                </ul>
+        </div>
+    </div>
+</body>
+</html>
